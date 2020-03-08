@@ -9,6 +9,6 @@ search_key=input('Enter what u search : ')
 
 searchbox.send_keys(search_key)
 
-searchbutton = driver.find_element_by_xpath('//*[@id="search-icon-legacy"]/yt-icon')
+searchButton = driver.find_element_by_xpath('//*[@id="search-icon-legacy"]/yt-icon')
 
 searchbutton.click()
